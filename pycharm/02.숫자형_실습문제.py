@@ -1,0 +1,35 @@
+print('{0:=^50}'.format('1번'))
+length = input("거리:")
+speed = input("속도:")
+time = int(length) / int(speed)
+print('시간:', time)
+
+print('{0:=^50}'.format('2번'))
+length = input("길이:")
+width = input("너비:")
+measure = int(length) * int(width)
+print('면적:', measure)
+
+length = input("길이:")
+width = input("너비:")
+circumference = int(length)*2 + int(width)*2
+print('둘레:', circumference)
+
+print('{0:=^50}'.format('3번'))
+fahrenheit = input("화씨:")
+celsius = int(fahrenheit)-32 / 1.8
+print('섭씨:', celsius)
+
+print('{0:=^50}'.format('4번'))
+a = input('a =')
+b = input('b =')
+c = int(a) + int(b)
+print(c)
+d = int(a) - int(b)
+print(d)
+e = int(a) * int(b)
+print(e)
+f = int(a) // int(b)
+print(f)
+g = int(a) % int(b)
+print(g)
