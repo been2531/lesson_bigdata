@@ -1,1 +1,0 @@
-python predict.py  C:\Users\CPB06GameN\PycharmProjects\test01\tensorflow\workspace_flowers_windows_pycharm\Red_Velvet\SEULGI\1.jpeg
